@@ -193,7 +193,6 @@
       y = (n - 1);
     }
        while ((x < n) && (y >= 0)) {
-        console.log(x, y, grid);
         if (grid[x][y]) {
           counter++;
         }
@@ -242,7 +241,7 @@
           return true;
         }
       }
-      return false;ß
+      return false;
     }
 
     /*--------------------  End of Helper Functions  ---------------------*/
